@@ -1,0 +1,254 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Libre Franklin', sans-serif;
+}
+a, a:hover{
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+}
+/* Header section css code start here */
+.header-section{
+    width: 100%;
+    /* height: 100vh; */
+    background: url("../images/v.png")no-repeat center top;
+    background-size: cover;
+
+}
+.header-section .bg-light{
+    background: transparent !important;
+}
+.header-section .navbar-brand img{
+    width: 80px;
+
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+    color: #511de5;
+    background: url("../images/Layer1.png")center bottom no-repeat;
+    background-size: contain;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0px 10px 0px 0px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:focus, .header-section  .navbar-light .navbar-nav .nav-link:hover {
+    color: #511de5;
+    background: url("../images/Layer1.png")center bottom no-repeat;
+    background-size: contain;
+}
+.header-section .btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    padding: 6px 35px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #ffffff;
+    background: linear-gradient(to right, #511de5,#0f86fa);
+    border: 0px;
+    margin-left: 15px;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -mz-transition: .5s ease-in;
+}
+.header-section .btn-outline-success:hover, .header-section .btn-outline-success:focus{
+    color: #ffffff;
+    background: linear-gradient(to right, #0f86fa, #511de5);
+}
+/* Banner section */
+.banner{
+    width: 100%;
+    padding: 220px 0px 215px;
+    text-align: right;
+}
+.banner h1{
+    font-size: 62px;
+    line-height: 73px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 2px;
+    margin: 0px 0px 30px 0px;
+}
+.banner h1 span{
+    color: #511de5;
+}
+.banner .btn-info{
+   
+    padding: 6px 35px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #061113;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    background:#f2f2f2;
+    border: 1px solid #000;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -mz-transition: .5s ease-in; 
+}
+.banner .btn-info:hover,.banner .btn-info:focus{
+    color: #061113;
+    background:transparent;
+    border: 1px solid #000;
+}
+.banner .btn-info .fa{
+    margin-left: 15px;
+}
+/* Header section css code end here */
+/* highlight section start */
+ .highlight{
+     width: 100%;
+     padding: 40px 0px;
+     background: url("../images/Re1.png")center top no-repeat;
+     background-size: cover;
+ }
+ .highlight .inner-images{
+    width: 100%;
+    position: relative;
+ }
+ .highlight .inner-images img{
+     position: absolute;
+     top: -98px;
+     left: -22px;
+ }
+ .highlight h3{
+    font-size:25px;
+    line-height:35px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+ }
+
+/* highlight section end */
+/* feature section start */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 90px 70px;
+    background: url("../images/Bg.png")bottom right no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 12px 3px #ccc;
+
+}
+.feature .inner-feature h2{
+    font-size: 35px;
+    line-height: 44px;
+    font-weight: 500;
+    color: #000;
+    margin: 30px 0px;
+}
+.feature .inner-feature p{
+    width: 54%;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    margin: 54px 0px;
+    
+}
+.feature .inner-feature h5{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    margin: 93px 0px 145px;
+    
+}
+.feature .inner-feature span{
+    font-size: 55px;
+    font-weight: 900;
+    color: #511de5;
+    margin: 36px 18px 56px 0px !important;
+}
+.clint{
+    width: 100%;
+    padding: 50px 0px 0px;
+    text-align: center;
+
+}
+.clint img{
+    width: 80%;
+}
+
+/* feature section end */
+/* intro section css code start here */
+.intro{
+    width: 100%;
+    padding: 190px 0px;
+    background: url("../images/quBg.png") center top no-repeat;
+    background-size: cover;
+}
+.quote{
+    width: 100%;
+    padding: 114px 0px;
+    background: url("../images/Quote.png") center center no-repeat;
+    background-size: cover;
+}
+.inner-quote{
+    width: 60%;
+    margin: 30px auto;
+}
+.inner-quote p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+   
+}
+.inner-quote h6{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 20px;
+   
+}
+.inner-heading h1{
+    width: 80%;
+    font-size: 42px;
+    line-height: 51px;
+    font-weight: 600;
+    color: #000;
+    margin: 76px 0px 55px 36px;
+}
+.inner-heading .btn-info{
+   
+    padding: 6px 35px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #172123;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    background:#ffffff;
+    border: 0px;
+    margin-left: 35px;
+   
+  
+}
+.inner-heading .btn-info:hover,.inner-heading .btn-info:focus{
+    color: #061113;
+    background:transparent;
+    border: 1px solid #000;
+}
+/* intro section css code end here */
